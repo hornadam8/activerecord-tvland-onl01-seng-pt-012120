@@ -4,4 +4,5 @@ class Character < ActiveRecord::Base
   
   def say_that_thing_you_always_say
     "#{self.name} always says #{self.catchprase}"
+  end
 end
