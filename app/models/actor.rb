@@ -8,6 +8,6 @@ class Actor < ActiveRecord::Base
   end
   
   def list_roles
-    self.characters[1]
+    self.characters.find[1]
   end
 end
