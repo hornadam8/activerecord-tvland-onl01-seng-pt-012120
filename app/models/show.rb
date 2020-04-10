@@ -4,6 +4,8 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   
   def actors_list
-    self.
+    list =[]
+    self.characters.map{|c| list << "#{c.full_name}"}
+    list
   end
 end
