@@ -8,6 +8,7 @@ class Actor < ActiveRecord::Base
   end
   
   def list_roles
-    self.characters.find[1]
+    roles = []
+    
   end
 end
