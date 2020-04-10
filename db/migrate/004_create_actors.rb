@@ -1,1 +1,1 @@
-class 
+class CreateActors < ActiveRecord
